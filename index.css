@@ -8,11 +8,54 @@ body{
     background-color: rgb(70, 167, 167);
     height: 100vh;
 }
+header .barra{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 4%;
+}
+header > .barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 75px;
+    font-size: 35px;
+}
+header .coisas{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    text-decoration: none;
+}
+header .btn-contato button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    padding: 10px 40px;
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
 .interface{
     max-width: 1280px;
     margin: 0 auto;
 }
-header{
+header .interface{
     padding: 150px 4%;
 }
 header > .interface{
@@ -32,16 +75,202 @@ header > .interface{
     font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  font-size: 20px;
 }
 .interface .foto img{
     border-radius: 300px;
 }
-main{
+main {
     background-color: rgb(202, 245, 231);
 }
-main .inter h2{
+.inter h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 15px 0;
+}
+main .paciente{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5%;
+    transition: .2s;
+}
+main .paciente:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px black;
+}
+main .ingles{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5%;
+    transition: .2s;
+}
+main .ingles:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px black;
+}
+main .qualidade{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5%;
+    transition: .2s;
+}
+main .qualidade:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px black;
+}
+.pontosfortes h2{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
     text-align: center;
+    font-size: 25px;
+}
+main .inter{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 40px 15%;
+}
+.experiencias h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+main .inter2{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 40px 15%;
+}
+.loteria{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5%;
+    transition: .2s;
+}
+.loteria:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px black;
+}
+.office{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5%;
+    transition: .2s;
+}
+.office:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px black;
+}
+nav .contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15%;
+}
+nav h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+.insta{
+    transition: .2s;
+}
+.insta:hover{
+    transform: scale(1.05);
+}
+.github{
+    transition: .2s;
+}
+.github:hover{
+    transform: scale(1.05);
+}
+.zapzap{
+    transition: .2s;
+}
+.zapzap:hover{
+    transform: scale(1.05);
+}
+head .barra{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section.form{
+    padding: 80px 4%;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgb(43, 75, 101);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+}
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+form .btn-enviar input{
+    width: 120px;
+    background-color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 0px 8px aliceblue;
+    transform: scale(1.05);
+}
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px aliceblue;
+    transform: scale(1.05);
+}
+footer{
+    background-color: aliceblue;
 }
