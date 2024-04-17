@@ -30,14 +30,14 @@ header .coisas{
     font-weight: 800;
     font-style: normal;
     font-size: 20px;
-    color: black;
-}
-header nav ul{
-    list-style-type: none;
 }
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
+}
+header nav ul li a{
+    color: rgba(0, 0, 0, 0.753);
+    list-style-type: none;
     text-decoration: none;
 }
 header .btn-contato button{
@@ -72,7 +72,7 @@ header > .interface{
     line-height: 75px;
 }
 .interface p{
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 20px;
@@ -81,7 +81,7 @@ header > .interface{
     border-radius: 300px;
 }
 main {
-    background-color: rgb(202, 245, 231);
+    background-color: aliceblue;
 }
 .inter h3{
     font-family: "Poppins", sans-serif;
@@ -217,10 +217,6 @@ nav h2{
 .zapzap:hover{
     transform: scale(1.05);
 }
-head .barra{
-    max-width: 1280px;
-    margin: 0 auto;
-}
 section.form{
     padding: 80px 4%;
 }
@@ -274,3 +270,4 @@ form .btn-enviar input:hover{
 footer{
     background-color: aliceblue;
 }
+
