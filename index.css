@@ -25,12 +25,6 @@ header h1{
     line-height: 75px;
     font-size: 35px;
 }
-header .coisas{
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 20px;
-}
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
@@ -41,10 +35,6 @@ header nav ul li a{
     text-decoration: none;
 }
 header .btn-contato button{
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
     padding: 10px 40px;
     background-color: aliceblue;
     border: 0;
@@ -71,12 +61,6 @@ header > .interface{
     font-style: normal;
     line-height: 75px;
 }
-.interface p{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 20px;
-}
 .interface .foto img{
     border-radius: 300px;
 }
@@ -84,55 +68,18 @@ main {
     background-color: aliceblue;
 }
 .inter h3{
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
     margin: 15px 0;
 }
-main .paciente{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 18px;
+.paciente, .ingles, .qualidade{
     border: 2px solid black;
     border-radius: 5%;
     transition: .2s;
 }
-main .paciente:hover{
+.paciente:hover, .ingles:hover, .qualidade:hover{
     transform: scale(1.05);
     box-shadow: 0 0 8px black;
 }
-main .ingles{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 18px;
-    border: 2px solid black;
-    border-radius: 5%;
-    transition: .2s;
-}
-main .ingles:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 8px black;
-}
-main .qualidade{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 18px;
-    border: 2px solid black;
-    border-radius: 5%;
-    transition: .2s;
-}
-main .qualidade:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 8px black;
-}
-.pontosfortes h2{
+h2{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -158,63 +105,24 @@ main .inter2{
     gap: 100px;
     padding: 40px 15%;
 }
-.loteria{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 18px;
+.loteria, .office{
     border: 2px solid black;
     border-radius: 5%;
     transition: .2s;
 }
-.loteria:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 8px black;
-}
-.office{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 18px;
-    border: 2px solid black;
-    border-radius: 5%;
-    transition: .2s;
-}
-.office:hover{
+.loteria:hover, .office:hover{
     transform: scale(1.05);
     box-shadow: 0 0 8px black;
 }
 nav .contato{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0px 15%;
 }
-nav h2{
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    text-align: center;
-    font-size: 25px;
-}
-.insta{
+.insta, .github, .zapzap{
     transition: .2s;
 }
-.insta:hover{
-    transform: scale(1.05);
-}
-.github{
-    transition: .2s;
-}
-.github:hover{
-    transform: scale(1.05);
-}
-.zapzap{
-    transition: .2s;
-}
-.zapzap:hover{
+.insta:hover, .github:hover, .zapzap:hover{
     transform: scale(1.05);
 }
 section.form{
@@ -270,4 +178,31 @@ form .btn-enviar input:hover{
 footer{
     background-color: aliceblue;
 }
-
+#tecnologias{
+    display: flex;
+    align-items: center;
+    padding: 40px 15%;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+}
+.html, .css, .python, .java{
+    transition: .2s;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.html:hover, .css:hover, .python:hover, .java:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px black;
+}
