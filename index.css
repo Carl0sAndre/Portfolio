@@ -25,9 +25,15 @@ header h1{
     line-height: 75px;
     font-size: 35px;
 }
+.texto p{
+    text-align: left;
+}
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 header nav ul li a{
     color: rgba(0, 0, 0, 0.753);
@@ -128,7 +134,7 @@ nav .contato{
 section.form{
     padding: 80px 4%;
 }
-h2{
+h2, h3{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -178,17 +184,19 @@ form .btn-enviar input:hover{
 footer{
     background-color: aliceblue;
 }
+footer > .contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 75px;
+
+}
 #tecnologias{
     display: flex;
     align-items: center;
+    gap: 100px;
     padding: 40px 15%;
-}
-h3{
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    text-align: center;
-    font-size: 25px;
+    justify-content: space-between;
 }
 p{
     font-family: "Poppins", sans-serif;
@@ -200,9 +208,15 @@ p{
 .html, .css, .python, .java{
     transition: .2s;
     border: 2px solid black;
-    border-radius: 5%;
+    border-radius: 20%;
+}
+.html p, .css p, .python p, .java p{
+    text-align: center;
 }
 .html:hover, .css:hover, .python:hover, .java:hover{
     transform: scale(1.05);
     box-shadow: 0 0 8px black;
+}
+nav h2{
+    text-align: left;
 }
