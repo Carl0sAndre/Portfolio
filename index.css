@@ -207,15 +207,12 @@ p{
 }
 .html, .css, .python, .java{
     transition: .2s;
-    border: 2px solid black;
-    border-radius: 20%;
 }
 .html p, .css p, .python p, .java p{
     text-align: center;
 }
 .html:hover, .css:hover, .python:hover, .java:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 8px black;
 }
 nav h2{
     text-align: left;
